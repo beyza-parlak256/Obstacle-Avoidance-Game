@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 0
     width: 192
     height: 416
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -224,8 +224,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b8eeffff
-      m_LastClickedID: -4424
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: 1efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -524,9 +524,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.2595672, y: 1.261217, z: -0.07573638}
+    m_Target: {x: -0.27126166, y: -0.16954698, z: -0.07400769}
     speed: 2
-    m_Value: {x: -0.3379861, y: 1.374107, z: -0.078868404}
+    m_Value: {x: 0.056634873, y: -0.35767195, z: -0.0712198}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -577,9 +577,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.646933
+    m_Target: 6.474063
     speed: 2
-    m_Value: 6.9601393
+    m_Value: 6.1952753
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -685,10 +685,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 14}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a0630000
     m_LastClickedID: 25504
-    m_ExpandedIDs: 00000000a0630000a86300006a640000
+    m_ExpandedIDs: 00000000a0630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -716,7 +716,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000a0630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -741,8 +741,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: b8eeffff
-    m_LastClickedInstanceID: -4424
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -819,8 +819,8 @@ MonoBehaviour:
     y: 0
     width: 264
     height: 635
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
