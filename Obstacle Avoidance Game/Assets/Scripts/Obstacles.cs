@@ -15,6 +15,10 @@ public class Obstacles : MonoBehaviour
         {
             transform.position = new Vector2(xPosition,yPosition);
         }
+        if(contact.gameObject.tag == "Character")
+        {
+            transform.position = new Vector2(xPosition, yPosition);
+        }
     }
 
 }
