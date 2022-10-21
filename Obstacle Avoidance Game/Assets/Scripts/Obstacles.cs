@@ -27,6 +27,7 @@ public class Obstacles : MonoBehaviour
         if(contact.gameObject.tag == "Character")
         {
             transform.position = new Vector2(xPosition, yPosition);
+            Health.remainingHealth--;
         }
     }
     
