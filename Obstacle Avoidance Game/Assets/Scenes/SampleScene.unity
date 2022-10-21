@@ -943,6 +943,7 @@ GameObject:
   - component: {fileID: 2107000972}
   - component: {fileID: 2107000971}
   - component: {fileID: 2107000974}
+  - component: {fileID: 2107000975}
   m_Layer: 0
   m_Name: Character
   m_TagString: Character
@@ -1056,6 +1057,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedMovement: 6
+--- !u!114 &2107000975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107000970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40a15bfcced7654f840b61fe44f42ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthText: {fileID: 714294261}
 --- !u!1001 &533259076941454523
 PrefabInstance:
   m_ObjectHideFlags: 0
