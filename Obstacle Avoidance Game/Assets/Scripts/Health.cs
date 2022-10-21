@@ -6,13 +6,14 @@ public class Health : MonoBehaviour
 {
     public static int remainingHealth = 3; // kalan saðlýk
     public TextMeshProUGUI healthText;
-
+    public GameObject theEndPanel;
     void Update()
     {
         healthText.text = "Health:" + remainingHealth.ToString();
 
         if (remainingHealth == 0)
         {
+            theEndPanel.SetActive(true); // bitiþ paneli aktif
             Time.timeScale = 0; // oyun durur
         }
     }

@@ -7,11 +7,12 @@ public class Obstacles : MonoBehaviour
 {
 
     private static int score;
-    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI scoreText, theEndText;
     void Update()
     {
         // int -> stringe geçiþte ToString() kullanýlýr
         scoreText.text = score.ToString();
+        theEndText.text = "OYUN BÝTTÝ" ;
     }
 
     void OnCollisionEnter2D(Collision2D contact)
