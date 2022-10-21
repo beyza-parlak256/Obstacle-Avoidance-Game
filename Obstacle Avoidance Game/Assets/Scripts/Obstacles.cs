@@ -8,6 +8,11 @@ public class Obstacles : MonoBehaviour
 
     private static int score;
     public TextMeshProUGUI scoreText, theEndText;
+
+    private void Start()
+    {
+        score = 0;
+    }
     void Update()
     {
         // int -> stringe geçiþte ToString() kullanýlýr
